@@ -1,0 +1,400 @@
+region_code,region_name,year,population
+ES11,Galicia,2001,2698025
+ES11,Galicia,2002,2696809
+ES11,Galicia,2003,2705159
+ES11,Galicia,2004,2711586
+ES11,Galicia,2005,2720689
+ES11,Galicia,2006,2730107
+ES11,Galicia,2007,2741074
+ES11,Galicia,2008,2754766
+ES11,Galicia,2009,2767469
+ES11,Galicia,2010,2772466
+ES11,Galicia,2011,2773411
+ES11,Galicia,2012,2771916
+ES11,Galicia,2013,2760720
+ES11,Galicia,2014,2745817
+ES11,Galicia,2015,2732801
+ES11,Galicia,2016,2719095
+ES11,Galicia,2017,2708955
+ES11,Galicia,2018,2703048
+ES11,Galicia,2019,2700210
+ES11,Galicia,2020,2702605
+ES11,Galicia,2021,2698177
+ES12,Principado de Asturias,2001,1064851
+ES12,Principado de Asturias,2002,1062786
+ES12,Principado de Asturias,2003,1062326
+ES12,Principado de Asturias,2004,1062412
+ES12,Principado de Asturias,2005,1062753
+ES12,Principado de Asturias,2006,1063488
+ES12,Principado de Asturias,2007,1065287
+ES12,Principado de Asturias,2008,1071079
+ES12,Principado de Asturias,2009,1076276
+ES12,Principado de Asturias,2010,1077102
+ES12,Principado de Asturias,2011,1075869
+ES12,Principado de Asturias,2012,1074308
+ES12,Principado de Asturias,2013,1067425
+ES12,Principado de Asturias,2014,1058560
+ES12,Principado de Asturias,2015,1049328
+ES12,Principado de Asturias,2016,1040407
+ES12,Principado de Asturias,2017,1033550
+ES12,Principado de Asturias,2018,1027091
+ES12,Principado de Asturias,2019,1021469
+ES12,Principado de Asturias,2020,1018053
+ES12,Principado de Asturias,2021,1012117
+ES13,Cantabria,2001,534231
+ES13,Cantabria,2002,536286
+ES13,Cantabria,2003,541651
+ES13,Cantabria,2004,548014
+ES13,Cantabria,2005,554688
+ES13,Cantabria,2006,561042
+ES13,Cantabria,2007,568196
+ES13,Cantabria,2008,577267
+ES13,Cantabria,2009,584657
+ES13,Cantabria,2010,588512
+ES13,Cantabria,2011,590867
+ES13,Cantabria,2012,592383
+ES13,Cantabria,2013,589789
+ES13,Cantabria,2014,587491
+ES13,Cantabria,2015,585184
+ES13,Cantabria,2016,582494
+ES13,Cantabria,2017,581421
+ES13,Cantabria,2018,581533
+ES13,Cantabria,2019,581989
+ES13,Cantabria,2020,583011
+ES13,Cantabria,2021,584708
+ES21,País Vasco,2001,2082971
+ES21,País Vasco,2002,2082896
+ES21,País Vasco,2003,2092644
+ES21,País Vasco,2004,2103103
+ES21,País Vasco,2005,2115260
+ES21,País Vasco,2006,2127689
+ES21,País Vasco,2007,2142602
+ES21,País Vasco,2008,2159415
+ES21,País Vasco,2009,2174077
+ES21,País Vasco,2010,2179521
+ES21,País Vasco,2011,2183136
+ES21,País Vasco,2012,2184696
+ES21,País Vasco,2013,2179274
+ES21,País Vasco,2014,2172247
+ES21,País Vasco,2015,2172707
+ES21,País Vasco,2016,2174426
+ES21,País Vasco,2017,2179944
+ES21,País Vasco,2018,2187254
+ES21,País Vasco,2019,2197306
+ES21,País Vasco,2020,2211917
+ES21,País Vasco,2021,2212628
+ES22,Comunidad Foral de Navarra,2001,552060
+ES22,Comunidad Foral de Navarra,2002,557456
+ES22,Comunidad Foral de Navarra,2003,567892
+ES22,Comunidad Foral de Navarra,2004,576346
+ES22,Comunidad Foral de Navarra,2005,584365
+ES22,Comunidad Foral de Navarra,2006,592137
+ES22,Comunidad Foral de Navarra,2007,602835
+ES22,Comunidad Foral de Navarra,2008,616710
+ES22,Comunidad Foral de Navarra,2009,627286
+ES22,Comunidad Foral de Navarra,2010,633023
+ES22,Comunidad Foral de Navarra,2011,637100
+ES22,Comunidad Foral de Navarra,2012,640014
+ES22,Comunidad Foral de Navarra,2013,639089
+ES22,Comunidad Foral de Navarra,2014,637099
+ES22,Comunidad Foral de Navarra,2015,637317
+ES22,Comunidad Foral de Navarra,2016,638922
+ES22,Comunidad Foral de Navarra,2017,642075
+ES22,Comunidad Foral de Navarra,2018,646340
+ES22,Comunidad Foral de Navarra,2019,652797
+ES22,Comunidad Foral de Navarra,2020,659907
+ES22,Comunidad Foral de Navarra,2021,662032
+ES23,La Rioja,2001,275313
+ES23,La Rioja,2002,277989
+ES23,La Rioja,2003,284607
+ES23,La Rioja,2004,291082
+ES23,La Rioja,2005,298045
+ES23,La Rioja,2006,302703
+ES23,La Rioja,2007,308117
+ES23,La Rioja,2008,316197
+ES23,La Rioja,2009,319788
+ES23,La Rioja,2010,319934
+ES23,La Rioja,2011,320858
+ES23,La Rioja,2012,320951
+ES23,La Rioja,2013,318819
+ES23,La Rioja,2014,315736
+ES23,La Rioja,2015,314457
+ES23,La Rioja,2016,314025
+ES23,La Rioja,2017,314136
+ES23,La Rioja,2018,314890
+ES23,La Rioja,2019,315967
+ES23,La Rioja,2020,318703
+ES23,La Rioja,2021,319444
+ES24,Aragón,2001,1202015
+ES24,Aragón,2002,1209897
+ES24,Aragón,2003,1225572
+ES24,Aragón,2004,1237774
+ES24,Aragón,2005,1255077
+ES24,Aragón,2006,1273563
+ES24,Aragón,2007,1294243
+ES24,Aragón,2008,1325426
+ES24,Aragón,2009,1342788
+ES24,Aragón,2010,1344181
+ES24,Aragón,2011,1344385
+ES24,Aragón,2012,1343807
+ES24,Aragón,2013,1337675
+ES24,Aragón,2014,1330713
+ES24,Aragón,2015,1325600
+ES24,Aragón,2016,1318042
+ES24,Aragón,2017,1315411
+ES24,Aragón,2018,1313493
+ES24,Aragón,2019,1320694
+ES24,Aragón,2020,1330592
+ES24,Aragón,2021,1331938
+ES30,Comunidad de Madrid,2001,5379087
+ES30,Comunidad de Madrid,2002,5478611
+ES30,Comunidad de Madrid,2003,5638804
+ES30,Comunidad de Madrid,2004,5766554
+ES30,Comunidad de Madrid,2005,5866219
+ES30,Comunidad de Madrid,2006,5953546
+ES30,Comunidad de Madrid,2007,6075013
+ES30,Comunidad de Madrid,2008,6226185
+ES30,Comunidad de Madrid,2009,6327559
+ES30,Comunidad de Madrid,2010,6373546
+ES30,Comunidad de Madrid,2011,6394252
+ES30,Comunidad de Madrid,2012,6425522
+ES30,Comunidad de Madrid,2013,6411525
+ES30,Comunidad de Madrid,2014,6372553
+ES30,Comunidad de Madrid,2015,6375737
+ES30,Comunidad de Madrid,2016,6411466
+ES30,Comunidad de Madrid,2017,6459297
+ES30,Comunidad de Madrid,2018,6529923
+ES30,Comunidad de Madrid,2019,6618078
+ES30,Comunidad de Madrid,2020,6720310
+ES30,Comunidad de Madrid,2021,6726640
+ES41,Castilla y León,2001,2463479
+ES41,Castilla y León,2002,2454754
+ES41,Castilla y León,2003,2463616
+ES41,Castilla y León,2004,2471132
+ES41,Castilla y León,2005,2482797
+ES41,Castilla y León,2006,2494698
+ES41,Castilla y León,2007,2514206
+ES41,Castilla y León,2008,2541720
+ES41,Castilla y León,2009,2549172
+ES41,Castilla y León,2010,2547401
+ES41,Castilla y León,2011,2545301
+ES41,Castilla y León,2012,2537685
+ES41,Castilla y León,2013,2516927
+ES41,Castilla y León,2014,2493604
+ES41,Castilla y León,2015,2475697
+ES41,Castilla y León,2016,2452721
+ES41,Castilla y León,2017,2433535
+ES41,Castilla y León,2018,2417013
+ES41,Castilla y León,2019,2405568
+ES41,Castilla y León,2020,2398976
+ES41,Castilla y León,2021,2385223
+ES42,Castilla-La Mancha,2001,1752002
+ES42,Castilla-La Mancha,2002,1763477
+ES42,Castilla-La Mancha,2003,1797150
+ES42,Castilla-La Mancha,2004,1833543
+ES42,Castilla-La Mancha,2005,1874017
+ES42,Castilla-La Mancha,2006,1917445
+ES42,Castilla-La Mancha,2007,1971208
+ES42,Castilla-La Mancha,2008,2031840
+ES42,Castilla-La Mancha,2009,2066428
+ES42,Castilla-La Mancha,2010,2084468
+ES42,Castilla-La Mancha,2011,2099064
+ES42,Castilla-La Mancha,2012,2105935
+ES42,Castilla-La Mancha,2013,2093474
+ES42,Castilla-La Mancha,2014,2074760
+ES42,Castilla-La Mancha,2015,2062615
+ES42,Castilla-La Mancha,2016,2049336
+ES42,Castilla-La Mancha,2017,2041422
+ES42,Castilla-La Mancha,2018,2034409
+ES42,Castilla-La Mancha,2019,2036777
+ES42,Castilla-La Mancha,2020,2047969
+ES42,Castilla-La Mancha,2021,2052505
+ES43,Extremadura,2001,1059011
+ES43,Extremadura,2002,1057790
+ES43,Extremadura,2003,1060351
+ES43,Extremadura,2004,1064374
+ES43,Extremadura,2005,1070096
+ES43,Extremadura,2006,1074937
+ES43,Extremadura,2007,1081872
+ES43,Extremadura,2008,1089655
+ES43,Extremadura,2009,1094693
+ES43,Extremadura,2010,1099610
+ES43,Extremadura,2011,1102299
+ES43,Extremadura,2012,1104336
+ES43,Extremadura,2013,1101024
+ES43,Extremadura,2014,1096708
+ES43,Extremadura,2015,1092217
+ES43,Extremadura,2016,1086153
+ES43,Extremadura,2017,1079108
+ES43,Extremadura,2018,1072721
+ES43,Extremadura,2019,1067925
+ES43,Extremadura,2020,1064970
+ES43,Extremadura,2021,1061636
+ES51,Cataluña,2001,6314849
+ES51,Cataluña,2002,6380492
+ES51,Cataluña,2003,6556900
+ES51,Cataluña,2004,6712748
+ES51,Cataluña,2005,6870811
+ES51,Cataluña,2006,7010859
+ES51,Cataluña,2007,7151682
+ES51,Cataluña,2008,7311146
+ES51,Cataluña,2009,7427092
+ES51,Cataluña,2010,7463488
+ES51,Cataluña,2011,7493263
+ES51,Cataluña,2012,7514991
+ES51,Cataluña,2013,7488664
+ES51,Cataluña,2014,7432833
+ES51,Cataluña,2015,7420890
+ES51,Cataluña,2016,7440692
+ES51,Cataluña,2017,7480778
+ES51,Cataluña,2018,7539364
+ES51,Cataluña,2019,7624625
+ES51,Cataluña,2020,7720323
+ES51,Cataluña,2021,7749896
+ES52,Comunitat Valenciana,2001,4135183
+ES52,Comunitat Valenciana,2002,4192277
+ES52,Comunitat Valenciana,2003,4322066
+ES52,Comunitat Valenciana,2004,4441941
+ES52,Comunitat Valenciana,2005,4567163
+ES52,Comunitat Valenciana,2006,4681033
+ES52,Comunitat Valenciana,2007,4801628
+ES52,Comunitat Valenciana,2008,4928095
+ES52,Comunitat Valenciana,2009,4981284
+ES52,Comunitat Valenciana,2010,4989631
+ES52,Comunitat Valenciana,2011,4999192
+ES52,Comunitat Valenciana,2012,5009650
+ES52,Comunitat Valenciana,2013,4988365
+ES52,Comunitat Valenciana,2014,4960213
+ES52,Comunitat Valenciana,2015,4945092
+ES52,Comunitat Valenciana,2016,4939888
+ES52,Comunitat Valenciana,2017,4943821
+ES52,Comunitat Valenciana,2018,4958584
+ES52,Comunitat Valenciana,2019,4989308
+ES52,Comunitat Valenciana,2020,5046482
+ES52,Comunitat Valenciana,2021,5067911
+ES53,Illes Balears,2001,830428
+ES53,Illes Balears,2002,845128
+ES53,Illes Balears,2003,883409
+ES53,Illes Balears,2004,912965
+ES53,Illes Balears,2005,940121
+ES53,Illes Balears,2006,970294
+ES53,Illes Balears,2007,1005181
+ES53,Illes Balears,2008,1042857
+ES53,Illes Balears,2009,1070167
+ES53,Illes Balears,2010,1083679
+ES53,Illes Balears,2011,1091664
+ES53,Illes Balears,2012,1100715
+ES53,Illes Balears,2013,1105131
+ES53,Illes Balears,2014,1106617
+ES53,Illes Balears,2015,1111002
+ES53,Illes Balears,2016,1117353
+ES53,Illes Balears,2017,1128492
+ES53,Illes Balears,2018,1141233
+ES53,Illes Balears,2019,1157928
+ES53,Illes Balears,2020,1176816
+ES53,Illes Balears,2021,1183415
+ES61,Andalucía,2001,7323031
+ES61,Andalucía,2002,7391401
+ES61,Andalucía,2003,7490871
+ES61,Andalucía,2004,7596534
+ES61,Andalucía,2005,7730696
+ES61,Andalucía,2006,7865788
+ES61,Andalucía,2007,7986600
+ES61,Andalucía,2008,8118570
+ES61,Andalucía,2009,8212968
+ES61,Andalucía,2010,8276008
+ES61,Andalucía,2011,8332080
+ES61,Andalucía,2012,8377810
+ES61,Andalucía,2013,8387986
+ES61,Andalucía,2014,8381239
+ES61,Andalucía,2015,8388994
+ES61,Andalucía,2016,8392046
+ES61,Andalucía,2017,8394017
+ES61,Andalucía,2018,8396464
+ES61,Andalucía,2019,8412222
+ES61,Andalucía,2020,8461039
+ES61,Andalucía,2021,8484804
+ES62,Región de Murcia,2001,1184118
+ES62,Región de Murcia,2002,1206614
+ES62,Región de Murcia,2003,1242626
+ES62,Región de Murcia,2004,1276816
+ES62,Región de Murcia,2005,1313496
+ES62,Región de Murcia,2006,1351106
+ES62,Región de Murcia,2007,1385717
+ES62,Región de Murcia,2008,1419563
+ES62,Región de Murcia,2009,1441787
+ES62,Región de Murcia,2010,1453543
+ES62,Región de Murcia,2011,1459075
+ES62,Región de Murcia,2012,1461925
+ES62,Región de Murcia,2013,1462271
+ES62,Región de Murcia,2014,1462734
+ES62,Región de Murcia,2015,1465195
+ES62,Región de Murcia,2016,1468367
+ES62,Región de Murcia,2017,1475275
+ES62,Región de Murcia,2018,1478718
+ES62,Región de Murcia,2019,1491312
+ES62,Región de Murcia,2020,1509077
+ES62,Región de Murcia,2021,1518279
+ES63,Ciudad de Ceuta,2001,71183
+ES63,Ciudad de Ceuta,2002,70868
+ES63,Ciudad de Ceuta,2003,71109
+ES63,Ciudad de Ceuta,2004,71538
+ES63,Ciudad de Ceuta,2005,71977
+ES63,Ciudad de Ceuta,2006,72807
+ES63,Ciudad de Ceuta,2007,74161
+ES63,Ciudad de Ceuta,2008,75250
+ES63,Ciudad de Ceuta,2009,76927
+ES63,Ciudad de Ceuta,2010,79294
+ES63,Ciudad de Ceuta,2011,81621
+ES63,Ciudad de Ceuta,2012,83845
+ES63,Ciudad de Ceuta,2013,84487
+ES63,Ciudad de Ceuta,2014,84562
+ES63,Ciudad de Ceuta,2015,84561
+ES63,Ciudad de Ceuta,2016,84558
+ES63,Ciudad de Ceuta,2017,85005
+ES63,Ciudad de Ceuta,2018,85327
+ES63,Ciudad de Ceuta,2019,85087
+ES63,Ciudad de Ceuta,2020,84502
+ES63,Ciudad de Ceuta,2021,84071
+ES64,Ciudad de Melilla,2001,65725
+ES64,Ciudad de Melilla,2002,65897
+ES64,Ciudad de Melilla,2003,65387
+ES64,Ciudad de Melilla,2004,64747
+ES64,Ciudad de Melilla,2005,64910
+ES64,Ciudad de Melilla,2006,67111
+ES64,Ciudad de Melilla,2007,68967
+ES64,Ciudad de Melilla,2008,71244
+ES64,Ciudad de Melilla,2009,73365
+ES64,Ciudad de Melilla,2010,76049
+ES64,Ciudad de Melilla,2011,78866
+ES64,Ciudad de Melilla,2012,81792
+ES64,Ciudad de Melilla,2013,83669
+ES64,Ciudad de Melilla,2014,84103
+ES64,Ciudad de Melilla,2015,85009
+ES64,Ciudad de Melilla,2016,85457
+ES64,Ciudad de Melilla,2017,85918
+ES64,Ciudad de Melilla,2018,86084
+ES64,Ciudad de Melilla,2019,86373
+ES64,Ciudad de Melilla,2020,86558
+ES64,Ciudad de Melilla,2021,86450
+ES70,Canarias,2001,1677983
+ES70,Canarias,2002,1703850
+ES70,Canarias,2003,1755698
+ES70,Canarias,2004,1804242
+ES70,Canarias,2005,1853158
+ES70,Canarias,2006,1899618
+ES70,Canarias,2007,1946077
+ES70,Canarias,2008,1991954
+ES70,Canarias,2009,2025490
+ES70,Canarias,2010,2045163
+ES70,Canarias,2011,2064871
+ES70,Canarias,2012,2085938
+ES70,Canarias,2013,2096336
+ES70,Canarias,2014,2098155
+ES70,Canarias,2015,2101319
+ES70,Canarias,2016,2103436
+ES70,Canarias,2017,2115233
+ES70,Canarias,2018,2131581
+ES70,Canarias,2019,2153316
+ES70,Canarias,2020,2176240
+ES70,Canarias,2021,2178924
