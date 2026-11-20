@@ -10,7 +10,7 @@ import unicodedata
 # 1. CARGAR LOS DATOS
 # --------------------------------------------------
 
-df = pd.read_csv("spain_yearly.csv")
+df = pd.read_csv("datos/spain_yearly.csv")
 
 # Seleccionar el periodo 2001-2021
 df = df[(df["year"] >= 2001) & (df["year"] <= 2021)]
@@ -181,7 +181,7 @@ plt.show()
 # --------------------------------------------------
 
 media_precipitacion.drop(columns="clave").to_csv(
-    "media_precipitaciones_por_comunidad.csv",
+    "datos/media_precipitaciones_por_comunidad.csv",
     index=False
 )
 
