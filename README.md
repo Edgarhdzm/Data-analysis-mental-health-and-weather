@@ -31,7 +31,7 @@ The notebooks find the repository folder by themselves and build every path with
 
 ### Raw data (`data/raw/`, not in GitHub)
 
-Download these files and save them in `data/raw/` with the names below.
+These are only needed to re-create the processed tables with the scripts in `src/`; the analysis notebooks do not use them. To re-create the tables, download the files and save them in `data/raw/` with the names below.
 
 | File | Content | Source |
 |---|---|---|
@@ -71,9 +71,9 @@ Each notebook starts with a description of what it does, its inputs and its outp
 ## How to reproduce
 
 1. Clone the repository and install the packages: `pip install -r requirements.txt`
-2. Download the raw files into `data/raw/` (table above).
-3. Optional, only to re-create the processed tables: run the scripts in `src/` and `notebooks/API_Weather.ipynb`.
-4. Open the notebooks from the `notebooks/` folder and use *Run All*.
+2. Open the notebooks from the `notebooks/` folder and use *Run All*. All the analysis notebooks only read `data/processed/`, which is in GitHub, so nothing else has to be downloaded.
+
+Optional, only to re-create the processed tables from scratch: download the raw files into `data/raw/` (table above), create the weather data in `data/interim/weather_data/` with the scripts in `src/weather/`, and run the scripts in `src/` and `notebooks/API_Weather.ipynb` (the only notebook that needs the weather data).
 
 ## Use of AI
 
