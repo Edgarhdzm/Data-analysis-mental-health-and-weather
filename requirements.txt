@@ -1,0 +1,10 @@
+pandas
+numpy
+matplotlib
+scipy
+geopandas
+pyarrow
+requests
+# Only for re-creating the weather data with the scripts in src/weather/
+omfiles
+fsspec

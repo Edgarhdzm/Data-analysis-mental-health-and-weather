@@ -5,12 +5,19 @@ import pandas as pd
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import unicodedata
+from pathlib import Path
+
+# Paths relative to the repository root (this script lives in src/)
+ROOT = Path(__file__).resolve().parents[1]
+PROCESSED = ROOT / "data" / "processed"
+FIGURES = ROOT / "figures"
+FIGURES.mkdir(exist_ok=True)
 
 # --------------------------------------------------
 # 1. CARGAR LOS DATOS
 # --------------------------------------------------
 
-df = pd.read_csv("datos/spain_yearly.csv")
+df = pd.read_csv(PROCESSED / "spain_yearly.csv")
 
 # Seleccionar el periodo 2001-2021
 df = df[(df["year"] >= 2001) & (df["year"] <= 2021)]
@@ -169,7 +176,7 @@ plt.tight_layout()
 
 # Guardar el mapa
 plt.savefig(
-    "mapa_precipitaciones_2001_2021.png",
+    FIGURES / "mapa_precipitaciones_2001_2021.png",
     dpi=300,
     bbox_inches="tight"
 )
@@ -181,7 +188,7 @@ plt.show()
 # --------------------------------------------------
 
 media_precipitacion.drop(columns="clave").to_csv(
-    "datos/media_precipitaciones_por_comunidad.csv",
+    PROCESSED / "media_precipitaciones_por_comunidad.csv",
     index=False
 )
 

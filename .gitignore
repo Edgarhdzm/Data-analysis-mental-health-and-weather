@@ -1,0 +1,22 @@
+# Raw and interim data are not uploaded (see README for how to get them)
+data/raw/
+data/interim/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Cache of the Open-Meteo API client
+.cache.sqlite
+
+# Editors and operating system
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
