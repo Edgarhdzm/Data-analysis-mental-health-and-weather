@@ -4,7 +4,7 @@ Analysis of suicide rates in the **United States**, **Spain** and the **Netherla
 
 ## Research question
 
-Are regional suicide rates related to the weather (temperature, rain, daylight, cloud cover, wind), to drug overdoses, to how many people live in a region and how dispersed they are, or to the economy (GDP, unemployment, public debt)?
+Are regional suicide rates related to the weather (temperature, rain, daylight, hours of sun, cloud cover, wind), to drug overdoses, to how many people live in a region and how dispersed they are, or to the economy (GDP, unemployment, public debt)?
 
 All comparisons use **rates** (suicides per 10,000 or 100,000 inhabitants), never raw counts.
 
@@ -41,18 +41,20 @@ These are only needed to re-create the processed tables with the scripts in `src
 
 ### Interim data (`data/interim/weather_data/`, not in GitHub)
 
-Daily weather for every node of the 0.25° (about 25 km) **ERA5** reanalysis grid inside the three countries (18,558 nodes), 2001–2021, read from the open-data repository of **Open-Meteo** (https://github.com/open-meteo/open-data, https://open-meteo.com). It is created with the scripts in `src/weather/` (about 2.5 hours; see the docstring of each script).
+Daily weather for every node of the 0.25° (about 25 km) **ERA5** reanalysis grid inside the three countries (18,558 nodes), 2001–2021, read from the open-data repository of **Open-Meteo** (https://github.com/open-meteo/open-data, https://open-meteo.com). It is created with the scripts in `src/weather/` (about 3.5 hours; see the docstring of each script). Hours of sun (`sunshine_duration`) are not stored by Open-Meteo: `src/weather/add_sunshine.py` computes them from the direct radiation with the same formula as the Open-Meteo API (checked against the API).
 
 ### Processed data (`data/processed/`)
 
 | File | One row per | Created by |
 |---|---|---|
-| `spain_yearly.csv`, `usa_yearly.csv`, `NL_yearly.csv` | region × year: weather variables | `notebooks/API_Weather.ipynb` |
+| `spain_yearly.csv`, `usa_yearly.csv`, `NL_yearly.csv` | region × year: mean temperature (°C), hours with precipitation, rain (mm), mean daylight (s per day), mean cloud cover (%), mean wind speed at 100 m (km/h), hours of sun in the year | `notebooks/API_Weather.ipynb` |
 | `usa_population.csv` | US state × year: population | `notebooks/API_Weather.ipynb` — U.S. Census Bureau, https://www.census.gov/programs-surveys/popest.html |
 | `spain_population.csv`, `NL_population.csv` | region × year: population on 1 January | `notebooks/API_Weather.ipynb` — Eurostat `demo_r_d2jan`, https://ec.europa.eu/eurostat/databrowser/view/demo_r_d2jan/default/table |
 | `usa_suicide_rate.csv`, `spain_suicide_rate.csv` | region × year: suicides and suicides per 10,000 inhabitants | `src/compute_suicide_rates.py` |
 | `drug_overdose_us_2001_2021.csv` | year: overdose deaths and rates, total and by sex | `src/extract_overdose_pdf.py` |
 | `usa_real_gdp.csv`, `usa_unemployment.csv` | US state × year: real GDP and unemployment rate | `src/download_economic_data.py` — FRED, https://fred.stlouisfed.org |
+
+The hours of sun computed from ERA5 are higher than those measured at weather stations, so they are useful to compare regions, not as absolute values.
 
 Regions: 50 US states + District of Columbia, 17 Spanish autonomous communities + Ceuta and Melilla, 12 Dutch provinces.
 
