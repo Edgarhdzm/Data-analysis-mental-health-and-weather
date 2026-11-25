@@ -1,4 +1,4 @@
-# Mental health and weather
+# Mental health 
 
 Analysis of suicide rates in the **United States** and **Spain** between **2001 and 2021**, by region (US states and Spanish autonomous communities), and of their relationship with the weather, drug overdoses, population size and density, and the economy.
 
