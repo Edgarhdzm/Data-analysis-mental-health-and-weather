@@ -122,4 +122,4 @@ An AI assistant (Claude, by Anthropic) was used to help write and debug the code
 
 ## License
 
-GNU General Public License v3.0 (see `LICENSE`).
+GNU General Public License v3.0 (see `LICENSE`)..
